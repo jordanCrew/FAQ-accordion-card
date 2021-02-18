@@ -1,1 +1,83 @@
+/* 
+Table of Content
 
+    1.General
+    2.Structure
+    3.Components
+    4.Footer
+*/
+
+$very-dark-blue: #1D1E35;
+$soft-red: #F47C57;
+$soft-violet: #AF67E9;
+$soft-blue: #6565E7;
+$very-dark-gray-blue: #4A4B5E;
+$dark-gray-blue: #787887;
+$light-gray-blue: #E7E7E9;
+
+$font-family: 'Kumbh Sans', sans-serif;
+
+/* ============
+   1.General 
+   ============ */
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: $font-family;
+        font-size: 1rem;
+    }
+
+    html {
+        background-image: linear-gradient($soft-violet, $soft-blue);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+/* ============
+   2.Structure
+   ============ */
+
+   .card {
+       position: absolute;
+       top: 10%;
+       left: 10%;
+       //transform: translate(50%, 50%);
+       width: 80%;
+       height: 80%;
+       background-color: #fff;
+       border-radius: 40px;
+       box-shadow: 10px 10px 20px rgba(43, 42, 42, 0.575);
+
+   }
+
+   .hero {
+       
+       
+       
+   }
+
+
+/* ============
+   3.Components
+   ============ */
+
+/* ============
+   4.Footer 
+   ============ */
+
+.attribution {
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
